@@ -30,10 +30,15 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: 'Noto Serif', serif, 'Mangal', Hindi, Arial, sans-serif; /* Indian-style fonts */
+    background-color: #fff8e1; /* Warm cream background */
+    color: #5d4037; /* Brownish text color */
 }
+/* Reset list styles */
 ol, ul {
 	list-style: none;
 }
+/* Remove quotation styles */
 blockquote, q {
 	quotes: none;
 }
@@ -47,16 +52,35 @@ table {
 	border-spacing: 0;
 }
 
-
 /* Center the container */
 #container {
-  padding-top:50px;
-  margin:0 auto;
-  width:480px;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 480px;
+  box-shadow: 0 0 10px rgba(93, 64, 55, 0.2); /* subtle shadow */
+  background-color: #fff3e0;
+  border-radius: 8px;
+  padding: 20px;
 }
 
 /* Give canvas a background */
 canvas {
-  background-color:black;
+  background-color: black;
+  display: block;
+  margin: 20px auto;
+  border-radius: 4px;
+}
 
+/* Kabir Pathshala header styling */
+#header {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Vesper Libre', serif, 'Mangal', Hindi, Arial, sans-serif;
+  color: #bf360c; /* Deep saffron color */
+  margin-bottom: 30px;
+  border-bottom: 3px solid #f57c00;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px #ffcc80;
 }
